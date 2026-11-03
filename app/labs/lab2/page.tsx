@@ -1,4 +1,10 @@
 import "./index.css";
+import ForegroundColors from "./ForegroundColors";
+import BackgroundColors from "./BackgroundColors";
+import Borders from "./Borders";
+import Padding from "./Padding";
+import Margins from "./Margins";
+import BoxModel from "./BoxModel";
 
 export default function Lab2() {
   return (
@@ -60,6 +66,44 @@ export default function Lab2() {
         <h4 className="wd-your-class">
             and an H4 heading with my class attached to it.
         </h4>
+        <div id="wd-css-document-structure">
+            <div className="wd-selector-1">
+                <h3>Document structure selectors</h3>
+                <div className="wd-selector-2">
+                    Selectors can be combined to refer elements in particular
+                    places in the document
+                    <p className="wd-selector-3">
+                        This paragraph&apos;s red background is referenced as
+                        <br />
+                        .wd-selector-1 .wd-selector-3
+                        <br />
+                        meaning the descendant of some ancestor.
+                        <br />
+                        <span className="wd-selector-4">
+                        Whereas this span is a direct child of its parent, and
+                            <span className="wd-selector-5">{" "}this is one direct descendant further</span>
+                        </span>
+                        <br />
+                        <span className="wd-ai-selector-5">
+                            This sample span is nested inside the paragraph
+                        </span>
+                        <br />
+                        You can combine these relationships to create specific
+                        styles depending on the document structure
+                    </p>
+                </div>
+            </div>
+        </div>
+        <p id="wd-ai-cascade" className="wd-ai-cascade">
+            This paragraph matches a tag rule (green), a class rule (yellow),
+            and an ID rule (red). The ID rule wins.
+        </p>
+        <ForegroundColors />
+        <BackgroundColors />
+        <Borders />
+        <Padding />
+        <Margins />
+        <BoxModel />
     </div>
   );
 }
