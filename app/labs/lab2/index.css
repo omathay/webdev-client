@@ -1,0 +1,48 @@
+/* p {
+  background-color: green;
+  color: white;
+} */
+
+p#wd-id-selector-1 {
+    background-color: red;
+    color: white;
+}
+p#wd-id-selector-2 {
+    background-color: yellow;
+    color: black;
+}
+
+p#wd-ai-id-selector {
+    background-color: purple;
+    color: white;
+}
+
+p#wd-id-selector-3 {
+    background-color: green;
+    color: pink;
+}
+
+#wd-lab2 h2 {
+    background-color: navy;
+    color: white;
+}
+
+#wd-lab2 h3 {
+    background-color: black;
+    color: white;
+}
+
+.wd-class-selector {
+  background-color: yellow;
+  color: blue;
+}
+
+.wd-ai-class-selector {
+  background-color: teal;
+  color: white;
+}
+
+.wd-your-class {
+    background-color: white;
+    color: red;
+}
