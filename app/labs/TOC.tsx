@@ -6,7 +6,7 @@ export default function TOC() {
         <h5>Do Good Recklessly</h5>
         <ul>
             <li>
-                <Link href="/labs">Home</Link>
+                <Link href="/labs" id="wd-home-link">Home</Link>
             </li>
             <li>
                 <Link href="/labs/lab1">Lab 1</Link>
@@ -21,7 +21,7 @@ export default function TOC() {
                 <Link id="wd-toc-book-link" href="https://kambaz.dev/book/ch1">Chapter 1</Link>
             </li>
             <li>
-                <Link href="/kambaz" id="wd-kambaz-link">Kambaz</Link>
+                <Link href="/" id="wd-kambaz-link">Kambaz</Link>
             </li>
         </ul>
         </>
