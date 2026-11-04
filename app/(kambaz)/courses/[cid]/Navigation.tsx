@@ -110,7 +110,6 @@ export default function CourseNavigation({ cid }: { cid: string }) {
       >
         Sample
       </Link>
-      {/* ...Quizzes, Grades, People, same pattern... */}
     </div>
   );
 }
