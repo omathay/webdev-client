@@ -189,3 +189,136 @@ p:where(.wd-ai-cascade) {
 .wd-box-sizing-border {
   box-sizing: border-box;
 }
+
+.wd-rounded-corners-top {
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+.wd-rounded-corners-bottom {
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+.wd-rounded-corners-all-around {
+  border-radius: 50px;
+}
+.wd-rounded-corners-inline {
+  border-radius: 30px 0px 20px 50px;
+}
+.wd-ai-rounded-left {
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+.wd-rounded-corners-weird {
+    border-radius: 70px 1px 150px 34px
+}
+
+.wd-dimension-portrait {
+  width: 75px;
+  height: 100px;
+}
+.wd-dimension-landscape {
+  width: 100px;
+  height: 75px;
+}
+.wd-dimension-square {
+  width: 75px;
+  height: 75px;
+}
+.wd-dimension-long {
+    width: 50;
+    height: 15;
+}
+
+.wd-ai-dimension-box {
+  width: 120px;
+  height: 60px;
+  background-color: yellow;
+}
+
+.wd-display-inline {
+  display: inline;
+  width: 150px;
+  height: 50px;
+  padding: 5px;
+}
+.wd-display-inline-block {
+  display: inline-block;
+  width: 150px;
+  height: 50px;
+  padding: 5px;
+}
+.wd-display-block {
+  display: block;
+  width: 150px;
+  height: 50px;
+  padding: 5px;
+}
+
+.wd-pos-relative-nudge-up-right {
+  position: relative;
+  bottom: 30px;
+  left: 30px;
+}
+.wd-pos-relative-nudge-down-right {
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+.wd-pos-relative {
+  position: relative;
+}
+.wd-ai-pos-relative-nudge {
+  position: relative;
+  top: 15px;
+  right: 25px;
+}
+
+.wd-pos-absolute-10-10 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.wd-pos-absolute-50-50 {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+.wd-pos-absolute-120-20 {
+  position: absolute;
+  top: 20px;
+  left: 120px;
+}
+
+.wd-pos-absolute-180-minus10 {
+    position: absolute;
+    top: -10px;
+    left: 180px;
+}
+
+.wd-ai-pos-absolute-br {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.wd-pos-fixed {
+  position: fixed;
+  right: 0px;
+  bottom: 50%;
+}
+
+.wd-pos-fixed-2 {
+    position:fixed;
+    right: 0px;
+    bottom: 0px;
+}
+.wd-ai-pos-fixed {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: purple;
+  color: white;
+  padding: 4px 8px;
+  font-size: 12px;
+}
