@@ -20,6 +20,12 @@ export default function MediaQueriesDemo() {
         <li className="wd-mq-rule-1250">
           Above 1250px: White text on Red background
         </li>
+        <li className="wd-mq-rule-750">
+            Invisible text: white text on black background
+        </li>
+        <li className="wd-mq-rule-ai">
+          Below 750px (max-width 749px): White text on Purple background
+        </li>
       </ul>
     </div>
   );
