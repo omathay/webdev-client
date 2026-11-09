@@ -9,7 +9,7 @@ export default function AccountLayout({
       <table>
         <tbody>
           <tr>
-            <td valign="top">
+            <td valign="top" className="pr-10">
               <AccountNavigation />
             </td>
             <td valign="top" width="100%">
