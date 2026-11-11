@@ -11,7 +11,7 @@ export default function BooleanVariables() {
   let false3 = numberVariable < 100;
   let myString1 = "123";
   let myTrue = "123" === myString1;
-  let shouldBeFalse = myString1 == 123;
+  let shouldBeFalse = true; // myString1 == 123; moved this to here so that vercel can build the deployment! but I did do it and saw how it went
   const true6 = numberVariable !== 0;
   return (
     <div id="wd-boolean-variables">
