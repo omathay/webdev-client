@@ -3,6 +3,7 @@ import "../lab2/tailwind/utilities.css";
 import ArrayStateVariable from "./ArrayStateVariable";
 import BooleanStateVariables from "./BooleanStateVariables";
 import ClickEvent from "./ClickEvent";
+import ContextExamples from "./context/ContextExamples";
 import Counter from "./Counter";
 import CounterBroken from "./CounterBroken";
 import DateStateVariable from "./DateStateVariable";
@@ -12,6 +13,7 @@ import PassingDataOnEvent from "./PassingDataOnEvent";
 import PassingFunctions from "./PassingFunctions";
 import PropDrilling from "./PropDrilling";
 import StringStateVariables from "./StringStateVariables";
+import UrlEncoding from "./UrlEncoding";
 
 export default function Lab4() {
     const sayHello = "hello from lab 4";
@@ -30,6 +32,8 @@ export default function Lab4() {
       <ArrayStateVariable />
       <ParentStateComponent />
       <PropDrilling />
+      <UrlEncoding />
+      <ContextExamples />
     </div>
   );
 }
