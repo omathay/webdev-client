@@ -7,8 +7,10 @@ import Counter from "./Counter";
 import CounterBroken from "./CounterBroken";
 import DateStateVariable from "./DateStateVariable";
 import ObjectStateVariable from "./ObjectStateVariable";
+import ParentStateComponent from "./ParentStateComponent";
 import PassingDataOnEvent from "./PassingDataOnEvent";
 import PassingFunctions from "./PassingFunctions";
+import PropDrilling from "./PropDrilling";
 import StringStateVariables from "./StringStateVariables";
 
 export default function Lab4() {
@@ -26,6 +28,8 @@ export default function Lab4() {
       <DateStateVariable />
       <ObjectStateVariable />
       <ArrayStateVariable />
+      <ParentStateComponent />
+      <PropDrilling />
     </div>
   );
 }
