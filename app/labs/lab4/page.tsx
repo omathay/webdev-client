@@ -1,5 +1,6 @@
 "use client";
 import "../lab2/tailwind/utilities.css";
+import BooleanStateVariables from "./BooleanStateVariables";
 import ClickEvent from "./ClickEvent";
 import Counter from "./Counter";
 import CounterBroken from "./CounterBroken";
@@ -16,6 +17,10 @@ export default function Lab4() {
       <PassingFunctions message={sayHello} theFunction={(message) => alert(message)} sayName={() => alert("Owen")} theOtherFunction={() => alert("Sample from parent")}/>
       <CounterBroken />
       <Counter />
+      <Counter />
+      <Counter />
+      <Counter />
+      <BooleanStateVariables />
     </div>
   );
 }
