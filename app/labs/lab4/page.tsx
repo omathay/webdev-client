@@ -1,3 +1,12 @@
+"use client";
+
+import ClickEvent from "./ClickEvent";
+
 export default function Lab4() {
-    return (<></>);
+  return (
+    <div id="wd-lab4">
+      <h2>Lab 4</h2>
+      <ClickEvent />
+    </div>
+  );
 }
