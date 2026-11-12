@@ -5,7 +5,7 @@ export default function FunctionDestructing() {
   const difference = subtract({ a: 4, b: 2 });
   const multiply = ({ a, b }: {a: number; b: number }) => a * b;
   const product = multiply({ a:1, b:2 });
-  const greet = ({ name = "Ada"} : {name: string}) => "Hello, " + name;
+  const greet = ({ name = "Ada"} : {name?: string}) => "Hello, " + name;
   const greeting = greet({});
   const divide = ({ a, b }: { a: number; b: number }) => a / b;
   const quotient = divide({ a: 10, b: 2 });
