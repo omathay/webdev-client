@@ -24,6 +24,9 @@ import JsonStringify from "./JsonStringify";
 import House from "./House";
 import Spreading from "./Spreader";
 import Destructing from "./Destructing";
+import FunctionDestructing from "./FunctionDestructing";
+import DestructingImports from "./DestructingImports";
+import OptionalChaining from "./OptionalChaining";
 
 export default function Lab3() {
     console.log("Hello world!");
@@ -57,6 +60,9 @@ export default function Lab3() {
       <House />
       <Spreading />
       <Destructing />
+      <FunctionDestructing />
+      <DestructingImports />
+      <OptionalChaining />
     </div>
   );
 }
