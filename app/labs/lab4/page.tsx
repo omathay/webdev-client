@@ -6,6 +6,7 @@ import Counter from "./Counter";
 import CounterBroken from "./CounterBroken";
 import PassingDataOnEvent from "./PassingDataOnEvent";
 import PassingFunctions from "./PassingFunctions";
+import StringStateVariables from "./StringStateVariables";
 
 export default function Lab4() {
     const sayHello = "hello from lab 4";
@@ -17,10 +18,8 @@ export default function Lab4() {
       <PassingFunctions message={sayHello} theFunction={(message) => alert(message)} sayName={() => alert("Owen")} theOtherFunction={() => alert("Sample from parent")}/>
       <CounterBroken />
       <Counter />
-      <Counter />
-      <Counter />
-      <Counter />
       <BooleanStateVariables />
+      <StringStateVariables />
     </div>
   );
 }

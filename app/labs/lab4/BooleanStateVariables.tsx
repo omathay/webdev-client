@@ -4,6 +4,8 @@ import { useState } from "react";
 
 export default function BooleanStateVariables() {
   const [done, setDone] = useState(true);
+  const [urgent, setUrgent] = useState(false);
+  const [saved, setSaved] = useState(false);
   return (
     <div id="wd-boolean-state-variables">
       <h2>Boolean State Variables</h2>
@@ -17,7 +19,27 @@ export default function BooleanStateVariables() {
         />
         Done
       </label>
+      <label className="flex items-center gap-2">
+        <input
+          type="checkbox"
+          checked={saved}
+          onChange={() => setSaved(!saved)}
+          id="wd-boolean-saved"
+        />
+        Saved
+      </label>
+      {saved && <div>Saved</div>}
       {done && <div className="mt-2 rounded bg-yellow-100 p-2">Yay! Done</div>}
+      <label className="flex items-center gap-2">
+        <input
+            type="checkbox"
+            checked={urgent}
+            onChange={() => setUrgent(!urgent)}
+            id="wd-boolean-checkbox"
+        />
+        Urgent
+      </label>
+      {urgent && <div className="mt-2 rounded bg-red-100 p-2">Uh oh! Urgent</div>}
       <hr />
     </div>
   );
