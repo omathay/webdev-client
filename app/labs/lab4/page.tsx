@@ -1,9 +1,12 @@
 "use client";
 import "../lab2/tailwind/utilities.css";
+import ArrayStateVariable from "./ArrayStateVariable";
 import BooleanStateVariables from "./BooleanStateVariables";
 import ClickEvent from "./ClickEvent";
 import Counter from "./Counter";
 import CounterBroken from "./CounterBroken";
+import DateStateVariable from "./DateStateVariable";
+import ObjectStateVariable from "./ObjectStateVariable";
 import PassingDataOnEvent from "./PassingDataOnEvent";
 import PassingFunctions from "./PassingFunctions";
 import StringStateVariables from "./StringStateVariables";
@@ -20,6 +23,9 @@ export default function Lab4() {
       <Counter />
       <BooleanStateVariables />
       <StringStateVariables />
+      <DateStateVariable />
+      <ObjectStateVariable />
+      <ArrayStateVariable />
     </div>
   );
 }
